@@ -26,7 +26,7 @@ def mainpage():
               <p>You look like a:
               <img src="/monster/{1}"/>
               '''.format(name, name_hash)
-    footer = '</body></html>'
+    footer = '<p>Brought to you by Xavier Juan Industries</p><p></body></html>'
 
     return header + body + footer
 
